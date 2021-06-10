@@ -1,0 +1,18 @@
+.custom-button{display: inline-block;
+    background: #13B9FF;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-radius: 6px;
+    border: 2px solid #13B9FF;
+    transition: all 0.3s ease;
+}
+.cert-img{
+
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
