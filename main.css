@@ -12,7 +12,7 @@
   transition: all 0.3s ease;
 }
 .custom-button:hover {
-  background: crimson;
+  background: #08283F;
 }
 .cert-img {
   width: 300px;
