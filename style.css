@@ -85,10 +85,14 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    height: 9vh;
+    padding-top: 1vh;
 }
 .navbar.sticky{
     padding: 15px 0;
     background: #13B9FF;
+    height: 9vh;
+    padding-top: 1vh;
 }
 .navbar .max-width{
     display: flex;
@@ -165,7 +169,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/5039684.jpg") no-repeat center;    
+    background: url("images/Background3.jpg") no-repeat center;    
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -194,7 +198,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #13B9FF;
+    color: #fff;
     font-weight: 500;
 }
 .home .home-content a{
@@ -213,6 +217,33 @@ section .title::after{
     color: #13B9FF;
     background: none;
 }
+#header .home .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  li:hover{
+      list-style: none;
+      display: inline-block;
+      color: #149ddd;
+      transition: .5s;
+  }
+  
+  #header .home .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+  }
 
 /* about section styling */
 .about .title::after{
