@@ -455,6 +455,9 @@ section .title::after{
 .skills-content .right .git::before{
     width: 70%;
 }
+.skills-content .right .uiux::before{
+    width: 70%;
+}
 .skills-content .right .ml::before{
     width: 60%;
 }
@@ -467,6 +470,7 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 50%;
 }
+
 
 
 
@@ -501,6 +505,7 @@ section .title::after{
     font-size: 25px;
     color: #13B9FF;
 }
+/*
 .contact .contact-content .info .head{
     font-weight: 500;
 }
@@ -566,7 +571,7 @@ section .title::after{
   color: #13B9FF;
   background: none;
 }
-
+*/
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
