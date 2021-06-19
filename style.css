@@ -127,7 +127,7 @@ section .title::after{
     color: #13B9FF;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #13B9FF;
 }
 
 /* menu btn styling */
@@ -141,7 +141,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #13B9FF;
+    background: #08283F;
     right: 30px;
     bottom: 10px;
     text-align: center;
