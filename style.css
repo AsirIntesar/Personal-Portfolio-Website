@@ -381,6 +381,24 @@ section .title::after{
   margin-bottom: 0;
 }
 
+/* certification section styling */
+
+ /* .certification .title::after{ */
+    #test::after{
+        content: "my achievements";
+        background: #fff;
+    }
+     #canvas_container {
+        width: 800px;
+        height: 450px;
+        overflow: auto;
+    }
+    
+    #canvas_container {
+      background: #333;
+      text-align: center;
+      border: solid 3px;
+    }
   /* skills section styling */
 
 .skills .title::after{
