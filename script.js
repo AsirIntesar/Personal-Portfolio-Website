@@ -84,7 +84,7 @@ $(document).ready(function () {
     zoom: 1
 }
 
-pdfjsLib.getDocument('./certifications/CV of Asir Intesar Ibne Zaman.pdf').then((pdf) => {
+pdfjsLib.getDocument('./certifications/Certificate Book.pdf').then((pdf) => {
 
     myState.pdf = pdf;
     render();
