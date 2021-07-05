@@ -388,10 +388,10 @@ section .title::after{
         content: "my achievements";
         background: #fff;
     }
-     #canvas_container {
+    #canvas_container {
         width: 800px;
         height: 450px;
-        overflow: auto;
+        overflow: none;
     }
     
     #canvas_container {
