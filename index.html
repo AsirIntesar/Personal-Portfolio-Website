@@ -161,19 +161,14 @@
                 <h2 class="title" id="test">My Certificates</h2>
             
             <div id="my_pdf_viewer">
-                <div id="canvas_container" style="margin-left: 11rem;">
-                    <canvas id="pdf_renderer" ></canvas>
+                <div id="canvas_container" style="margin-left: 10rem;">
+                    <canvas id="pdf_renderer" style="object-fit: cover;" width="612" height="792"></canvas>
                 </div>
         
                 <div id="navigation_controls" class="custom-button" style="padding-top: 0px; padding-bottom: 0px; margin-left: 20rem;" >
                     <button id="go_previous" class="custom-button" style="margin: 1px;">Previous</button>
                     <input id="current_page" value="1" type="number"/>
                     <button id="go_next" class="custom-button" style="margin: 1px;">Next</button>
-                </div>
-        
-                <div id="zoom_controls">  
-                    <button id="zoom_in"class="custom-button" style="margin-left: 29rem;" >+</button>
-                    <button id="zoom_out"class="custom-button">-</button>
                 </div>
             </div>
         </div>
