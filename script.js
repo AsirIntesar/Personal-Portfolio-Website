@@ -73,7 +73,7 @@ $(document).ready(function(){
 $(document).ready(function () {
     $("#resumeDownloadButton").click(function (e) {
       e.preventDefault();
-      window.location.href = "attributes/Resume of Asir Intesar Ibne Zaman.pdf";
+      window.location.href = "attributes/Resume_of_Asir_Intesar_Ibne_Zaman.pdf";
     });
   });
  
